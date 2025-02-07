@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Caveat");
 
 .Container {
@@ -14,16 +15,16 @@
 
 .Picture {
   display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
   border: 5px solid #fff;
   border-radius: 3px;
   background: #989292;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); 
   user-select: none;
   cursor: pointer;
+  position: fixed; 
+  margin-left: 50%;
+  margin-top: 120%;
 }
 
 .Picture-video {
@@ -104,3 +105,4 @@ body {
   overflow: hidden;
   background-color: rgb(38, 38, 38);
 }
+

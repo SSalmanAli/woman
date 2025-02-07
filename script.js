@@ -58,10 +58,10 @@ pictures.forEach(picture => {
 window.onload = function() {
   const audio = document.getElementById("bg-music");
 
+
   // Unmute audio when the user clicks anywhere on the page
   document.body.addEventListener('click', function() {
       audio.muted = false;
       audio.play();  // Resume the audio after unmuting
   });
 }
-
